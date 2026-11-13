@@ -1,0 +1,300 @@
+{"id": "qa-test_seen-2000000-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "Amine Hamidi", "pred": "04 octobre 2024", "seconds": 0.1637}
+{"id": "qa-test_seen-2000001-item_amount", "field": "item_amount", "question": "Line total for Clavier sans fil?", "gold": "5 690,00", "pred": "5 690,00", "seconds": 0.1523}
+{"id": "qa-test_seen-2000002-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "09/00-9815866 A 08", "pred": "FA24/2439", "seconds": 0.1582}
+{"id": "qa-test_seen-2000003-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "60319,22", "pred": "60319,22", "seconds": 0.163}
+{"id": "qa-test_seen-2000004-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "374575057240487", "pred": "374575957240487", "seconds": 0.1749}
+{"id": "qa-test_seen-2000005-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "19%", "seconds": 0.1462}
+{"id": "qa-test_seen-2000006-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "15 469,32", "pred": "Qte", "seconds": 0.1459}
+{"id": "qa-test_seen-2000007-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "483/2025", "pred": "483/2025", "seconds": 0.1558}
+{"id": "qa-test_seen-2000008-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "ETS Babors", "pred": "09/03/2024", "seconds": 0.1559}
+{"id": "qa-test_seen-2000009-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1456}
+{"id": "qa-test_seen-2000010-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "56.476,58", "pred": "56.476,58", "seconds": 0.1631}
+{"id": "qa-test_seen-2000011-item_qty", "field": "item_qty", "question": "Combien d'unités de Carrelage 45x45 (m2) ?", "gold": "1", "pred": "1", "seconds": 0.1401}
+{"id": "qa-test_seen-2000012-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 4363/25", "pred": "N° 4363/25", "seconds": 0.1596}
+{"id": "qa-test_seen-2000013-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "07/00-1024015 B 12", "pred": "23/02/2024", "seconds": 0.1626}
+{"id": "qa-test_seen-2000014-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "15/00-9355749 A 19", "pred": "N° 9441/25", "seconds": 0.1602}
+{"id": "qa-test_seen-2000015-timbre", "field": "timbre", "question": "Timbre fiscal ?", "gold": "15,48", "pred": "SNC Cirta Équipements", "seconds": 0.1746}
+{"id": "qa-test_seen-2000016-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "9.967,50", "pred": "9%", "seconds": 0.1449}
+{"id": "qa-test_seen-2000017-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Ciment CPJ 42.5 (sac 50 kg) au total ?", "gold": "6 038,28", "pred": "10 422,28", "seconds": 0.1589}
+{"id": "qa-test_seen-2000018-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "30/00-6983679 A 09", "pred": "ETS El Bahdja", "seconds": 0.1594}
+{"id": "qa-test_seen-2000019-date", "field": "date", "question": "Date d'émission ?", "gold": "15/03/2026", "pred": "15/03/2026", "seconds": 0.1553}
+{"id": "qa-test_seen-2000020-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "360253579004284", "pred": "360253579004284", "seconds": 0.1705}
+{"id": "qa-test_seen-2000021-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "641502519432613", "pred": "641502519432613", "seconds": 0.1692}
+{"id": "qa-test_seen-2000022-item_qty", "field": "item_qty", "question": "Combien d'unités de Ciment CPJ 42.5 (sac 50 kg) ?", "gold": "24", "pred": "24", "seconds": 0.14}
+{"id": "qa-test_seen-2000023-item_amount", "field": "item_amount", "question": "Line total for Ordinateur portable 15 pouces?", "gold": "134 310,00", "pred": "134 310,00", "seconds": 0.1519}
+{"id": "qa-test_seen-2000024-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "379028093604871", "pred": "379028093604871", "seconds": 0.1705}
+{"id": "qa-test_seen-2000025-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "1728,33", "pred": "19%", "seconds": 0.1463}
+{"id": "qa-test_seen-2000026-date", "field": "date", "question": "What date is on the invoice?", "gold": "30.08.2024", "pred": "F-2024-83941", "seconds": 0.1673}
+{"id": "qa-test_seen-2000027-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "77 550,28", "pred": "77 550,28", "seconds": 0.1553}
+{"id": "qa-test_seen-2000028-item_qty", "field": "item_qty", "question": "Quantity of Agrafeuse?", "gold": "5", "pred": "5", "seconds": 0.1396}
+{"id": "qa-test_seen-2000029-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "9%", "pred": "1 998,59", "seconds": 0.1602}
+{"id": "qa-test_seen-2000030-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "24667,31", "pred": "9%", "seconds": 0.1487}
+{"id": "qa-test_seen-2000031-date", "field": "date", "question": "Date d'émission ?", "gold": "08/05/2026", "pred": "SPA Tadjenanet Informatique", "seconds": 0.1718}
+{"id": "qa-test_seen-2000032-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "31/00-2499485 A 05", "pred": "N° 5911/25", "seconds": 0.1609}
+{"id": "qa-test_seen-2000033-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "11 970,00", "seconds": 0.1499}
+{"id": "qa-test_seen-2000034-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "202 293,55", "pred": "19%", "seconds": 0.1449}
+{"id": "qa-test_seen-2000035-date", "field": "date", "question": "Date d'émission ?", "gold": "04-07-2025", "pred": "04-07-2025", "seconds": 0.161}
+{"id": "qa-test_seen-2000036-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "547.820,00", "pred": "9%", "seconds": 0.1481}
+{"id": "qa-test_seen-2000037-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "63 235,60", "pred": "19%", "seconds": 0.1469}
+{"id": "qa-test_seen-2000038-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "260004189441701", "pred": "FA26/0742", "seconds": 0.1559}
+{"id": "qa-test_seen-2000039-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "88.676,18", "pred": "73.780,00", "seconds": 0.1572}
+{"id": "qa-test_seen-2000040-item_qty", "field": "item_qty", "question": "Quantity of Tube PVC Ø110 (6 m)?", "gold": "1", "pred": "1", "seconds": 0.1399}
+{"id": "qa-test_seen-2000041-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "670964507023550", "pred": "670964507023550", "seconds": 0.1701}
+{"id": "qa-test_seen-2000042-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "2 593,80", "pred": "9%", "seconds": 0.1462}
+{"id": "qa-test_seen-2000043-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "06/00-6568569 B 07", "pred": "06/00-6568569 B 07", "seconds": 0.1804}
+{"id": "qa-test_seen-2000044-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "Hichem Bensalem", "pred": "13/12/2025", "seconds": 0.1543}
+{"id": "qa-test_seen-2000045-tva", "field": "tva", "question": "VAT amount?", "gold": "8.923,06", "pred": "19%", "seconds": 0.1448}
+{"id": "qa-test_seen-2000046-date", "field": "date", "question": "Date d'émission ?", "gold": "13 juillet 2024", "pred": "13 juillet 2024", "seconds": 0.1651}
+{"id": "qa-test_seen-2000047-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "9%", "pred": "9%", "seconds": 0.1478}
+{"id": "qa-test_seen-2000048-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "9105,71", "seconds": 0.1571}
+{"id": "qa-test_seen-2000049-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "07/00-7395990 A 09", "pred": "07/00-7395930 A 09", "seconds": 0.1832}
+{"id": "qa-test_seen-2000050-item_amount", "field": "item_amount", "question": "Line total for Amortisseur arrière?", "gold": "37 020,00", "pred": "37 020,00", "seconds": 0.1524}
+{"id": "qa-test_seen-2000051-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "814540351221219", "pred": "F-2024-58044", "seconds": 0.1662}
+{"id": "qa-test_seen-2000052-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "1390,50", "pred": "9%", "seconds": 0.1638}
+{"id": "qa-test_seen-2000053-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SPA Tadjenanet", "pred": "N° 4851/24", "seconds": 0.1641}
+{"id": "qa-test_seen-2000054-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "EURL Amel", "pred": "27/04/2024", "seconds": 0.1646}
+{"id": "qa-test_seen-2000055-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "801469663310520", "pred": "801469663310520", "seconds": 0.1738}
+{"id": "qa-test_seen-2000056-date", "field": "date", "question": "What date is on the invoice?", "gold": "13/06/2024", "pred": "13/06/2024", "seconds": 0.1606}
+{"id": "qa-test_seen-2000057-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "36512,30", "pred": "19%", "seconds": 0.1455}
+{"id": "qa-test_seen-2000058-item_amount", "field": "item_amount", "question": "Line total for Prise murale double?", "gold": "504,97", "pred": "1", "seconds": 0.1414}
+{"id": "qa-test_seen-2000059-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "SPA Sahel Informatique", "pred": "23-07-2024", "seconds": 0.1566}
+{"id": "qa-test_seen-2000060-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "91.110,00", "pred": "Filtre à air</s_name><s_qty> 1", "seconds": 0.1716}
+{"id": "qa-test_seen-2000061-item_qty", "field": "item_qty", "question": "Combien d'unités de Sable de carrière (m3) ?", "gold": "24", "pred": "24", "seconds": 0.1414}
+{"id": "qa-test_seen-2000062-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SARL Amel", "pred": "N° 3644/24", "seconds": 0.1634}
+{"id": "qa-test_seen-2000063-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "23/00-9807620 B 17", "pred": "23/00-9807620 B 17", "seconds": 0.1823}
+{"id": "qa-test_seen-2000064-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "123621,60", "pred": "19%", "seconds": 0.1475}
+{"id": "qa-test_seen-2000065-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "3.870,00", "pred": "19%", "seconds": 0.146}
+{"id": "qa-test_seen-2000066-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "56 042,40", "pred": "19%", "seconds": 0.1475}
+{"id": "qa-test_seen-2000067-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "SPA Dahra Pièces", "pred": "937/2024", "seconds": 0.1566}
+{"id": "qa-test_seen-2000068-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "12 780,60", "pred": "10 740,00", "seconds": 0.1528}
+{"id": "qa-test_seen-2000069-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SPA Zibans Informatique", "pred": "N° 451/26", "seconds": 0.1637}
+{"id": "qa-test_seen-2000070-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "15/00-7651198 A 10", "pred": "F-2025-21714", "seconds": 0.1661}
+{"id": "qa-test_seen-2000071-item_qty", "field": "item_qty", "question": "Combien d'unités de Écran 24 pouces ?", "gold": "2", "pred": "2", "seconds": 0.1426}
+{"id": "qa-test_seen-2000072-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 147/25", "pred": "N° 147/25", "seconds": 0.1596}
+{"id": "qa-test_seen-2000073-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "50017,52", "pred": "19%", "seconds": 0.149}
+{"id": "qa-test_seen-2000074-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "30/00-8282578 B 20", "pred": "30/00-8282578 B 20", "seconds": 0.1881}
+{"id": "qa-test_seen-2000075-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "498705644095631", "pred": "F-2024-53130", "seconds": 0.1727}
+{"id": "qa-test_seen-2000076-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "001061827820583", "pred": "N° 1375/26", "seconds": 0.1705}
+{"id": "qa-test_seen-2000077-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "368276530518565", "pred": "FA24/1917", "seconds": 0.1591}
+{"id": "qa-test_seen-2000078-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "07/00-8222209 B 08", "pred": "07/00-822209 B 08", "seconds": 0.1825}
+{"id": "qa-test_seen-2000079-item_qty", "field": "item_qty", "question": "Combien d'unités de Tableau électrique 12 modules ?", "gold": "1", "pred": "1", "seconds": 0.1412}
+{"id": "qa-test_seen-2000080-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "10920,93", "pred": "9920,00", "seconds": 0.1514}
+{"id": "qa-test_seen-2000081-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "3 841,69", "seconds": 0.1622}
+{"id": "qa-test_seen-2000082-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "FA25/8399", "pred": "FA25/8399", "seconds": 0.1637}
+{"id": "qa-test_seen-2000083-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "13/00-7374428 A 07", "pred": "FA26/0120", "seconds": 0.1572}
+{"id": "qa-test_seen-2000084-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Registre 200 pages au total ?", "gold": "1 305,87", "pred": "23 163,73", "seconds": 0.1565}
+{"id": "qa-test_seen-2000085-tva", "field": "tva", "question": "VAT amount?", "gold": "1 822,50", "pred": "9%", "seconds": 0.1457}
+{"id": "qa-test_seen-2000086-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "92.232,91", "pred": "9%", "seconds": 0.1456}
+{"id": "qa-test_seen-2000087-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SPA El Baraka", "pred": "F-2024-88427", "seconds": 0.1663}
+{"id": "qa-test_seen-2000088-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "018283839580941", "pred": "018238395908441", "seconds": 0.1731}
+{"id": "qa-test_seen-2000089-item_qty", "field": "item_qty", "question": "Quantity of Câble réseau Cat6 (305 m)?", "gold": "2", "pred": "2", "seconds": 0.1411}
+{"id": "qa-test_seen-2000090-tva", "field": "tva", "question": "VAT amount?", "gold": "242,21", "pred": "9%", "seconds": 0.146}
+{"id": "qa-test_seen-2000091-date", "field": "date", "question": "What date is on the invoice?", "gold": "20/05/2025", "pred": "FA25/4096", "seconds": 0.1617}
+{"id": "qa-test_seen-2000092-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "31/00-0232551 B 04", "pred": "ETS Soummam", "seconds": 0.162}
+{"id": "qa-test_seen-2000093-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "125 928,18", "pred": "125 928,18", "seconds": 0.1599}
+{"id": "qa-test_seen-2000094-date", "field": "date", "question": "Date d'émission ?", "gold": "18.09.2025", "pred": "18.09.2025", "seconds": 0.156}
+{"id": "qa-test_seen-2000095-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Carrelage 45x45 (m2) au total ?", "gold": "64 560,00", "pred": "64 560,00", "seconds": 0.1518}
+{"id": "qa-test_seen-2000096-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 7131/26", "pred": "N° 7131/26", "seconds": 0.167}
+{"id": "qa-test_seen-2000097-item_amount", "field": "item_amount", "question": "Line total for Bougie d'allumage?", "gold": "2 328,36", "pred": "2", "seconds": 0.1421}
+{"id": "qa-test_seen-2000098-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "247270087952894", "pred": "702/2026", "seconds": 0.1565}
+{"id": "qa-test_seen-2000099-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "18 888,01", "pred": "19%", "seconds": 0.1465}
+{"id": "qa-test_seen-2000100-date", "field": "date", "question": "What date is on the invoice?", "gold": "08-04-2024", "pred": "F-2024-40634", "seconds": 0.1667}
+{"id": "qa-test_seen-2000101-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "23/00-3601437 A 10", "pred": "09/05/2025", "seconds": 0.1618}
+{"id": "qa-test_seen-2000102-client", "field": "client", "question": "Who is the customer?", "gold": "Rachid Saadi", "pred": "Rachid Saadi", "seconds": 0.1563}
+{"id": "qa-test_seen-2000103-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "SPA Amel Matériaux", "pred": "SPA Amel Matériaux", "seconds": 0.1663}
+{"id": "qa-test_seen-2000104-tva", "field": "tva", "question": "VAT amount?", "gold": "2 252,03", "pred": "19%", "seconds": 0.1454}
+{"id": "qa-test_seen-2000105-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "407964402111811", "pred": "N° F-2024-22331", "seconds": 0.1767}
+{"id": "qa-test_seen-2000106-item_qty", "field": "item_qty", "question": "Quantity of Écran 24 pouces?", "gold": "3", "pred": "3", "seconds": 0.1423}
+{"id": "qa-test_seen-2000107-tva", "field": "tva", "question": "VAT amount?", "gold": "2.068,96", "pred": "19%", "seconds": 0.1474}
+{"id": "qa-test_seen-2000108-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1448}
+{"id": "qa-test_seen-2000109-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "221 250,00", "pred": "19%", "seconds": 0.1448}
+{"id": "qa-test_seen-2000110-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 6036/26", "pred": "ETS Atlas", "seconds": 0.1576}
+{"id": "qa-test_seen-2000111-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "SNC Hodna Alimentation", "pred": "21.01.2026", "seconds": 0.1577}
+{"id": "qa-test_seen-2000112-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 2372/25", "pred": "N° 2372/25", "seconds": 0.1627}
+{"id": "qa-test_seen-2000113-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.145}
+{"id": "qa-test_seen-2000114-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "5 369,00", "pred": "19%", "seconds": 0.1456}
+{"id": "qa-test_seen-2000115-tva", "field": "tva", "question": "VAT amount?", "gold": "7.090,53", "pred": "9%", "seconds": 0.1469}
+{"id": "qa-test_seen-2000116-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "19/00-0026526 B 18", "pred": "19/00-0026526 B 18", "seconds": 0.1743}
+{"id": "qa-test_seen-2000117-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "SPA Numidia Matériaux", "seconds": 0.17}
+{"id": "qa-test_seen-2000118-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Lait en poudre 500 g au total ?", "gold": "12 552,60", "pred": "117,53", "seconds": 0.1505}
+{"id": "qa-test_seen-2000119-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "23789,90", "pred": "19%", "seconds": 0.1476}
+{"id": "qa-test_seen-2000120-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "ETS Ennour", "pred": "FA26/3004", "seconds": 0.1557}
+{"id": "qa-test_seen-2000121-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "940198645965809", "pred": "940198645956809", "seconds": 0.1754}
+{"id": "qa-test_seen-2000122-client", "field": "client", "question": "Who is the customer?", "gold": "SPA Mitidja Matériaux", "pred": "SPA Mitidja Matériaux", "seconds": 0.1703}
+{"id": "qa-test_seen-2000123-item_qty", "field": "item_qty", "question": "Quantity of Huile de table 5 L?", "gold": "12", "pred": "12", "seconds": 0.1418}
+{"id": "qa-test_seen-2000124-client", "field": "client", "question": "Who is the customer?", "gold": "EURL Dahra Informatique", "pred": "EURL Dahra Informatique", "seconds": 0.1646}
+{"id": "qa-test_seen-2000125-item_qty", "field": "item_qty", "question": "Quantity of Agrafeuse?", "gold": "20", "pred": "20", "seconds": 0.1426}
+{"id": "qa-test_seen-2000126-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "6.754,98", "pred": "9%", "seconds": 0.1454}
+{"id": "qa-test_seen-2000127-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "568257595562948", "pred": "45.654,54", "seconds": 0.161}
+{"id": "qa-test_seen-2000128-date", "field": "date", "question": "Date d'émission ?", "gold": "17/12/2025", "pred": "17/12/2025", "seconds": 0.1571}
+{"id": "qa-test_seen-2000129-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "13/00-4366463 B 16", "pred": "13/00-4366463 B 16", "seconds": 0.1851}
+{"id": "qa-test_seen-2000130-date", "field": "date", "question": "Date d'émission ?", "gold": "31-05-2024", "pred": "3", "seconds": 0.1411}
+{"id": "qa-test_seen-2000131-date", "field": "date", "question": "What date is on the invoice?", "gold": "04 août 2025", "pred": "04 août 2025", "seconds": 0.1602}
+{"id": "qa-test_seen-2000132-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "07/00-3619449 B 24", "pred": "F-2026-32855", "seconds": 0.1661}
+{"id": "qa-test_seen-2000133-item_qty", "field": "item_qty", "question": "Quantity of Tableau électrique 12 modules?", "gold": "4", "pred": "4", "seconds": 0.1398}
+{"id": "qa-test_seen-2000134-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "809649687398683", "pred": "725/2024", "seconds": 0.1564}
+{"id": "qa-test_seen-2000135-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "26.377,33", "pred": "21.946,36", "seconds": 0.1591}
+{"id": "qa-test_seen-2000136-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "SARL Ennour Informatique", "pred": "29/06/2025", "seconds": 0.1612}
+{"id": "qa-test_seen-2000137-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "53015,81", "pred": "53015,81", "seconds": 0.1613}
+{"id": "qa-test_seen-2000138-date", "field": "date", "question": "Date d'émission ?", "gold": "10-11-2024", "pred": "10-11-2024", "seconds": 0.1569}
+{"id": "qa-test_seen-2000139-item_qty", "field": "item_qty", "question": "Combien d'unités de Bougie d'allumage ?", "gold": "10", "pred": "10", "seconds": 0.1398}
+{"id": "qa-test_seen-2000140-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "15/00-9223604 B 11", "pred": "EURL Saoura", "seconds": 0.1559}
+{"id": "qa-test_seen-2000141-date", "field": "date", "question": "Date d'émission ?", "gold": "29/08/2024", "pred": "SNC Rym Matériaux", "seconds": 0.1706}
+{"id": "qa-test_seen-2000142-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "253/2024", "pred": "253/2024", "seconds": 0.1546}
+{"id": "qa-test_seen-2000143-date", "field": "date", "question": "What date is on the invoice?", "gold": "24-02-2026", "pred": "24-02-2026", "seconds": 0.1547}
+{"id": "qa-test_seen-2000144-item_amount", "field": "item_amount", "question": "Line total for Eau minérale 1,5 L (pack 6)?", "gold": "3 238,00", "pred": "20", "seconds": 0.1409}
+{"id": "qa-test_seen-2000145-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "276556064796650", "pred": "27655064796650", "seconds": 0.1673}
+{"id": "qa-test_seen-2000146-item_qty", "field": "item_qty", "question": "Quantity of Huile de table 5 L?", "gold": "24", "pred": "24", "seconds": 0.1408}
+{"id": "qa-test_seen-2000147-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "4 506,42", "pred": "19%", "seconds": 0.147}
+{"id": "qa-test_seen-2000148-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "74466,65", "pred": "74466,65", "seconds": 0.1635}
+{"id": "qa-test_seen-2000149-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "30/00-4256473 B 10", "pred": "30/00-4256473 B 10", "seconds": 0.1811}
+{"id": "qa-test_seen-2000150-date", "field": "date", "question": "Date d'émission ?", "gold": "24 décembre 2025", "pred": "SPA Babors Informatique", "seconds": 0.1602}
+{"id": "qa-test_seen-2000151-item_qty", "field": "item_qty", "question": "Quantity of Ordinateur portable 15 pouces?", "gold": "4", "pred": "4", "seconds": 0.1408}
+{"id": "qa-test_seen-2000152-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "601,67", "pred": "9%", "seconds": 0.146}
+{"id": "qa-test_seen-2000153-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "674914771786094", "pred": "26/12/2025", "seconds": 0.1556}
+{"id": "qa-test_seen-2000154-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "9%", "pred": "9%", "seconds": 0.1468}
+{"id": "qa-test_seen-2000155-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "FA24/3566", "pred": "FA24/3566", "seconds": 0.161}
+{"id": "qa-test_seen-2000156-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "EURL Tikjda Pièces", "pred": "N° 2761/26", "seconds": 0.1646}
+{"id": "qa-test_seen-2000157-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "975820432128186", "pred": "975820432128186", "seconds": 0.1755}
+{"id": "qa-test_seen-2000158-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "6205,86", "pred": "9%", "seconds": 0.1461}
+{"id": "qa-test_seen-2000159-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1453}
+{"id": "qa-test_seen-2000160-item_amount", "field": "item_amount", "question": "Line total for Courroie de distribution?", "gold": "4990,00", "pred": "4990,00", "seconds": 0.1502}
+{"id": "qa-test_seen-2000161-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "26 746,30", "pred": "19%", "seconds": 0.1447}
+{"id": "qa-test_seen-2000162-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "020/2024", "pred": "020/2024", "seconds": 0.1551}
+{"id": "qa-test_seen-2000163-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "61629,53", "pred": "51276,76", "seconds": 0.1593}
+{"id": "qa-test_seen-2000164-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Câble électrique 2,5 mm2 (100 m) au total ?", "gold": "31 230,00", "pred": "54 733,56", "seconds": 0.1598}
+{"id": "qa-test_seen-2000165-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 5812/25", "pred": "N° 5812/25", "seconds": 0.1596}
+{"id": "qa-test_seen-2000166-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "F-2025-25401", "pred": "F-2025-25401", "seconds": 0.1651}
+{"id": "qa-test_seen-2000167-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "363403995106648", "pred": "363403995100648", "seconds": 0.1685}
+{"id": "qa-test_seen-2000168-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 7983/25", "pred": "N° 7983/25", "seconds": 0.1603}
+{"id": "qa-test_seen-2000169-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "ETS Mitidja", "pred": "FA25/77168", "seconds": 0.162}
+{"id": "qa-test_seen-2000170-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SARL Tafna", "pred": "SARL Tafna", "seconds": 0.1626}
+{"id": "qa-test_seen-2000171-item_qty", "field": "item_qty", "question": "Combien d'unités de Brique 12 trous ?", "gold": "5", "pred": "5", "seconds": 0.141}
+{"id": "qa-test_seen-2000172-item_amount", "field": "item_amount", "question": "Line total for Switch 24 ports?", "gold": "37 470,00", "pred": "37 470,00", "seconds": 0.1509}
+{"id": "qa-test_seen-2000173-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "566210873925096", "pred": "N° 56621087925096", "seconds": 0.1769}
+{"id": "qa-test_seen-2000174-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "61 461,64", "pred": "SNC Seybouse Matériaux", "seconds": 0.1758}
+{"id": "qa-test_seen-2000175-timbre", "field": "timbre", "question": "Stamp duty amount?", "gold": "5,00", "pred": "5,00", "seconds": 0.1466}
+{"id": "qa-test_seen-2000176-date", "field": "date", "question": "Date d'émission ?", "gold": "05.08.2024", "pred": "EURL Seybouse", "seconds": 0.1623}
+{"id": "qa-test_seen-2000177-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "25/00-1097102 A 20", "pred": "SNC Nour El Houda Informatique", "seconds": 0.1831}
+{"id": "qa-test_seen-2000178-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "SPA Nour El Houda Pièces", "pred": "SARL Djurdjura", "seconds": 0.1681}
+{"id": "qa-test_seen-2000179-date", "field": "date", "question": "Date d'émission ?", "gold": "05/06/2025", "pred": "05/06/2025", "seconds": 0.1595}
+{"id": "qa-test_seen-2000180-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "ETS Chelia Équipements", "pred": "21-03-2024", "seconds": 0.1585}
+{"id": "qa-test_seen-2000181-timbre", "field": "timbre", "question": "Stamp duty amount?", "gold": "101,32", "pred": "10 233,65", "seconds": 0.1601}
+{"id": "qa-test_seen-2000182-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "F-2026-12515", "pred": "F-2026-12515", "seconds": 0.1658}
+{"id": "qa-test_seen-2000183-timbre", "field": "timbre", "question": "Stamp duty amount?", "gold": "596,67", "pred": "EURL Numidia Pièces", "seconds": 0.1751}
+{"id": "qa-test_seen-2000184-item_amount", "field": "item_amount", "question": "Line total for Huile de table 5 L?", "gold": "16 378,08", "pred": "24", "seconds": 0.1409}
+{"id": "qa-test_seen-2000185-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "123533232856437", "pred": "1125332322565437", "seconds": 0.1764}
+{"id": "qa-test_seen-2000186-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "50051,40", "pred": "50051,40", "seconds": 0.1561}
+{"id": "qa-test_seen-2000187-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "9%", "pred": "2 904,49", "seconds": 0.1621}
+{"id": "qa-test_seen-2000188-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "833558530460875", "pred": "833558530460875", "seconds": 0.1752}
+{"id": "qa-test_seen-2000189-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "FA24/1665", "pred": "FA24/1665", "seconds": 0.1559}
+{"id": "qa-test_seen-2000190-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "347257083909824", "pred": "347257083909824", "seconds": 0.1772}
+{"id": "qa-test_seen-2000191-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "022/2025", "pred": "022/2025", "seconds": 0.1549}
+{"id": "qa-test_seen-2000192-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "1 793,96", "pred": "19%", "seconds": 0.1453}
+{"id": "qa-test_seen-2000193-item_qty", "field": "item_qty", "question": "Combien d'unités de Lentilles 1 kg ?", "gold": "1", "pred": "1", "seconds": 0.1427}
+{"id": "qa-test_seen-2000194-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "19%", "seconds": 0.1478}
+{"id": "qa-test_seen-2000195-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "F-2025-05415", "pred": "F-2025-05415", "seconds": 0.1681}
+{"id": "qa-test_seen-2000196-date", "field": "date", "question": "Date d'émission ?", "gold": "03-07-2024", "pred": "5", "seconds": 0.1416}
+{"id": "qa-test_seen-2000197-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "EURL Amel", "pred": "EURL Amel", "seconds": 0.1568}
+{"id": "qa-test_seen-2000198-date", "field": "date", "question": "What date is on the invoice?", "gold": "04.08.2026", "pred": "04.08.2026", "seconds": 0.165}
+{"id": "qa-test_seen-2000199-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "25.695,94", "pred": "Ciment CPJ 42.5 (sac 50 kg)", "seconds": 0.198}
+{"id": "qa-test_seen-2000200-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "30/00-0473194 B 20", "pred": "30/00-0473194 B 20", "seconds": 0.1871}
+{"id": "qa-test_seen-2000201-item_qty", "field": "item_qty", "question": "Combien d'unités de Prise murale double ?", "gold": "1", "pred": "1", "seconds": 0.1397}
+{"id": "qa-test_seen-2000202-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "16.790,21", "pred": "13.969,72", "seconds": 0.1551}
+{"id": "qa-test_seen-2000203-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1458}
+{"id": "qa-test_seen-2000204-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "6 123,93", "pred": "5 146,16", "seconds": 0.1563}
+{"id": "qa-test_seen-2000205-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 5955/24", "pred": "N° 5955/24", "seconds": 0.1622}
+{"id": "qa-test_seen-2000206-client", "field": "client", "question": "Who is the customer?", "gold": "Samira Rahmani", "pred": "Samira Rahmani", "seconds": 0.1572}
+{"id": "qa-test_seen-2000207-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "461317542780474", "pred": "461317542780474", "seconds": 0.17}
+{"id": "qa-test_seen-2000208-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Onduleur 1500 VA au total ?", "gold": "45.060,00", "pred": "45.060,00", "seconds": 0.1568}
+{"id": "qa-test_seen-2000209-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "ETS Nour El Houda", "pred": "19.09.2026", "seconds": 0.1572}
+{"id": "qa-test_seen-2000210-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "9%", "pred": "982,80", "seconds": 0.1561}
+{"id": "qa-test_seen-2000211-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "182641161842868", "pred": "F-2025-57434", "seconds": 0.1664}
+{"id": "qa-test_seen-2000212-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Disjoncteur 16 A au total ?", "gold": "6.815,20", "pred": "6 8115,20", "seconds": 0.162}
+{"id": "qa-test_seen-2000213-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "EURL El Khadra Alimentation", "pred": "FA24/8193", "seconds": 0.1612}
+{"id": "qa-test_seen-2000214-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "701593884116178", "pred": "N° 360/25", "seconds": 0.1553}
+{"id": "qa-test_seen-2000215-date", "field": "date", "question": "Date d'émission ?", "gold": "21-12-2025", "pred": "SNC El Medina Pièces", "seconds": 0.1803}
+{"id": "qa-test_seen-2000216-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "FA26/3982", "pred": "FA26/3982", "seconds": 0.1606}
+{"id": "qa-test_seen-2000217-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "FA24/5359", "pred": "FA24/5359", "seconds": 0.1603}
+{"id": "qa-test_seen-2000218-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "618070160314344", "pred": "618070160314344", "seconds": 0.1722}
+{"id": "qa-test_seen-2000219-date", "field": "date", "question": "What date is on the invoice?", "gold": "24/02/2026", "pred": "24/02/2026", "seconds": 0.1608}
+{"id": "qa-test_seen-2000220-date", "field": "date", "question": "What date is on the invoice?", "gold": "20-07-2024", "pred": "20-07-2024", "seconds": 0.157}
+{"id": "qa-test_seen-2000221-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "281796069122578", "pred": "FA24/9046", "seconds": 0.1612}
+{"id": "qa-test_seen-2000222-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 9072/24", "pred": "N° 9072/24", "seconds": 0.1622}
+{"id": "qa-test_seen-2000223-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "SNC Hodna Alimentation", "pred": "22-11-2025", "seconds": 0.1558}
+{"id": "qa-test_seen-2000224-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "Samira Ait Ahmed", "pred": "FA24/7398", "seconds": 0.1574}
+{"id": "qa-test_seen-2000225-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "94240,00", "pred": "Plaquettes de frein avant</s_name><s_qty> 4", "seconds": 0.1863}
+{"id": "qa-test_seen-2000226-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "EURL Nour El Houda Fournitures", "pred": "F-2024-42068", "seconds": 0.169}
+{"id": "qa-test_seen-2000227-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1453}
+{"id": "qa-test_seen-2000228-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "N° 9703/26", "pred": "N° 9703/26", "seconds": 0.1665}
+{"id": "qa-test_seen-2000229-date", "field": "date", "question": "What date is on the invoice?", "gold": "05/10/2025", "pred": "FA25/6293", "seconds": 0.1618}
+{"id": "qa-test_seen-2000230-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "13/00-4668758 A 10", "pred": "13/00-4669758 A 10", "seconds": 0.1792}
+{"id": "qa-test_seen-2000231-item_amount", "field": "item_amount", "question": "Line total for Brique 12 trous?", "gold": "1522,50", "pred": "32495,13", "seconds": 0.1625}
+{"id": "qa-test_seen-2000232-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "322904722315495", "pred": "322904722315495", "seconds": 0.175}
+{"id": "qa-test_seen-2000233-invoice_number", "field": "invoice_number", "question": "Numéro de facture ?", "gold": "F-2026-49646", "pred": "F-2026-49646", "seconds": 0.1645}
+{"id": "qa-test_seen-2000234-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "63105,70", "pred": "53030,00", "seconds": 0.1512}
+{"id": "qa-test_seen-2000235-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "SARL Ahaggar", "pred": "02 décembre 2025", "seconds": 0.1619}
+{"id": "qa-test_seen-2000236-tva", "field": "tva", "question": "VAT amount?", "gold": "19153,90", "pred": "19%", "seconds": 0.1464}
+{"id": "qa-test_seen-2000237-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "487784540612118", "pred": "N° 889/24", "seconds": 0.1621}
+{"id": "qa-test_seen-2000238-client", "field": "client", "question": "Who is the customer?", "gold": "SARL Ennour Fournitures", "pred": "SARL Ennour Fournitures", "seconds": 0.1768}
+{"id": "qa-test_seen-2000239-item_qty", "field": "item_qty", "question": "Quantity of Câble réseau Cat6 (305 m)?", "gold": "1", "pred": "1", "seconds": 0.1504}
+{"id": "qa-test_seen-2000240-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "SPA Ksar", "pred": "N° 7027/25", "seconds": 0.1622}
+{"id": "qa-test_seen-2000241-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "2 634,40", "pred": "19%", "seconds": 0.1458}
+{"id": "qa-test_seen-2000242-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "15515,40", "seconds": 0.1553}
+{"id": "qa-test_seen-2000243-item_qty", "field": "item_qty", "question": "Combien d'unités de Calculatrice de bureau ?", "gold": "1", "pred": "1", "seconds": 0.1404}
+{"id": "qa-test_seen-2000244-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "Nassim Saadi", "pred": "23/08/2025", "seconds": 0.1561}
+{"id": "qa-test_seen-2000245-vendor", "field": "vendor", "question": "Quelle entreprise a établi cette facture ?", "gold": "EURL Tafna Équipements", "pred": "27.04.2025", "seconds": 0.1558}
+{"id": "qa-test_seen-2000246-timbre", "field": "timbre", "question": "Timbre fiscal ?", "gold": "175,81", "pred": "SPA El Medina Pièces", "seconds": 0.1752}
+{"id": "qa-test_seen-2000247-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "153.314,85", "pred": "153.314,85", "seconds": 0.1658}
+{"id": "qa-test_seen-2000248-item_qty", "field": "item_qty", "question": "Combien d'unités de Disjoncteur 16 A ?", "gold": "3", "pred": "3", "seconds": 0.141}
+{"id": "qa-test_seen-2000249-item_qty", "field": "item_qty", "question": "Quantity of Ciment CPJ 42.5 (sac 50 kg)?", "gold": "20", "pred": "20", "seconds": 0.1411}
+{"id": "qa-test_seen-2000250-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "27 750,00", "pred": "9%", "seconds": 0.146}
+{"id": "qa-test_seen-2000251-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "10.212,91", "pred": "19%", "seconds": 0.1468}
+{"id": "qa-test_seen-2000252-item_qty", "field": "item_qty", "question": "Quantity of Disjoncteur 16 A?", "gold": "50", "pred": "50", "seconds": 0.1416}
+{"id": "qa-test_seen-2000253-item_amount", "field": "item_amount", "question": "Line total for Carrelage 45x45 (m2)?", "gold": "65280,00", "pred": "237560,00", "seconds": 0.1576}
+{"id": "qa-test_seen-2000254-vendor_rc", "field": "vendor_rc", "question": "Commercial register number of the seller?", "gold": "16/00-9441038 B 02", "pred": "29/04/2024", "seconds": 0.1625}
+{"id": "qa-test_seen-2000255-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "65.670,00", "pred": "19%", "seconds": 0.146}
+{"id": "qa-test_seen-2000256-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "33158,60", "pred": "19%", "seconds": 0.1464}
+{"id": "qa-test_seen-2000257-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "963035612571744", "pred": "502/2024", "seconds": 0.1581}
+{"id": "qa-test_seen-2000258-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "248770542638125", "pred": "F-2024-87196", "seconds": 0.166}
+{"id": "qa-test_seen-2000259-timbre", "field": "timbre", "question": "Stamp duty amount?", "gold": "774,97", "pred": "774,97", "seconds": 0.1549}
+{"id": "qa-test_seen-2000260-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "48 451,90", "pred": "19%", "seconds": 0.1455}
+{"id": "qa-test_seen-2000261-total_ht", "field": "total_ht", "question": "Montant HT ?", "gold": "32.039,88", "pred": "Qt", "seconds": 0.1473}
+{"id": "qa-test_seen-2000262-date", "field": "date", "question": "Date d'émission ?", "gold": "29-07-2026", "pred": "29-07-2026", "seconds": 0.1542}
+{"id": "qa-test_seen-2000263-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "19%", "seconds": 0.1458}
+{"id": "qa-test_seen-2000264-item_amount", "field": "item_amount", "question": "Line total for Bougie d'allumage?", "gold": "15.224,16", "pred": "15.224,16", "seconds": 0.1595}
+{"id": "qa-test_seen-2000265-date", "field": "date", "question": "What date is on the invoice?", "gold": "17/07/2024", "pred": "F-2024-54855", "seconds": 0.165}
+{"id": "qa-test_seen-2000266-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SNC Sahel Informatique", "pred": "FA25/2562", "seconds": 0.1558}
+{"id": "qa-test_seen-2000267-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Batterie 70 Ah au total ?", "gold": "41 240,00", "pred": "71 470,92", "seconds": 0.1633}
+{"id": "qa-test_seen-2000268-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "21.204,00", "seconds": 0.1611}
+{"id": "qa-test_seen-2000269-client", "field": "client", "question": "À qui la facture est-elle adressée ?", "gold": "SNC Nour El Houda", "pred": "09 avril 2026", "seconds": 0.161}
+{"id": "qa-test_seen-2000270-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "771729877484974", "pred": "F-2024-95328", "seconds": 0.1661}
+{"id": "qa-test_seen-2000271-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "357323242261758", "pred": "357323242261758", "seconds": 0.1796}
+{"id": "qa-test_seen-2000272-date", "field": "date", "question": "What date is on the invoice?", "gold": "27/03/2024", "pred": "FA24/9812", "seconds": 0.1607}
+{"id": "qa-test_seen-2000273-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "19%", "pred": "19%", "seconds": 0.1474}
+{"id": "qa-test_seen-2000274-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "13/00-7782657 B 04", "pred": "13/00-7782657 B 04", "seconds": 0.1804}
+{"id": "qa-test_seen-2000275-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "27.623,21", "seconds": 0.1614}
+{"id": "qa-test_seen-2000276-item_amount", "field": "item_amount", "question": "Combien coûte la ligne Batterie 70 Ah au total ?", "gold": "68 960,00", "pred": "92 930,00", "seconds": 0.1497}
+{"id": "qa-test_seen-2000277-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "16/00-0145823 A 01", "pred": "16/00-0145823 A 01", "seconds": 0.181}
+{"id": "qa-test_seen-2000278-tva_rate", "field": "tva_rate", "question": "Which VAT percentage is used?", "gold": "19%", "pred": "35.055,00", "seconds": 0.158}
+{"id": "qa-test_seen-2000279-item_qty", "field": "item_qty", "question": "Quantity of Ciment CPJ 42.5 (sac 50 kg)?", "gold": "2", "pred": "2", "seconds": 0.1414}
+{"id": "qa-test_seen-2000280-tva_rate", "field": "tva_rate", "question": "TVA à quel taux ?", "gold": "9%", "pred": "9%", "seconds": 0.1465}
+{"id": "qa-test_seen-2000281-total_ttc", "field": "total_ttc", "question": "Net à payer ?", "gold": "106 776,40", "pred": "106 776,40", "seconds": 0.1601}
+{"id": "qa-test_seen-2000282-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "142/2024", "pred": "142/2024", "seconds": 0.1501}
+{"id": "qa-test_seen-2000283-item_amount", "field": "item_amount", "question": "Line total for Cartouche toner noir?", "gold": "10420,00", "pred": "10420,00", "seconds": 0.1506}
+{"id": "qa-test_seen-2000284-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "651 296,80", "pred": "597 520,00", "seconds": 0.1555}
+{"id": "qa-test_seen-2000285-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "249351971478188", "pred": "24953197478188", "seconds": 0.1713}
+{"id": "qa-test_seen-2000286-vendor_nif", "field": "vendor_nif", "question": "Seller NIF?", "gold": "939648161885715", "pred": "93648161885715", "seconds": 0.1754}
+{"id": "qa-test_seen-2000287-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 7871/26", "pred": "N° 7871/26", "seconds": 0.1663}
+{"id": "qa-test_seen-2000288-vendor", "field": "vendor", "question": "Which company is the seller?", "gold": "SNC Hodna Pièces", "pred": "N° 380/2026", "seconds": 0.1624}
+{"id": "qa-test_seen-2000289-item_amount", "field": "item_amount", "question": "Line total for Prise murale double?", "gold": "467,49", "pred": "1", "seconds": 0.1405}
+{"id": "qa-test_seen-2000290-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "1 189,31", "pred": "9%", "seconds": 0.1453}
+{"id": "qa-test_seen-2000291-tva", "field": "tva", "question": "Combien de TVA ?", "gold": "7.535,14", "pred": "9%", "seconds": 0.1452}
+{"id": "qa-test_seen-2000292-total_ht", "field": "total_ht", "question": "Total excluding VAT?", "gold": "27202,90", "pred": "19%", "seconds": 0.1459}
+{"id": "qa-test_seen-2000293-item_amount", "field": "item_amount", "question": "Line total for Tableau électrique 12 modules?", "gold": "10700,00", "pred": "10700,00", "seconds": 0.1451}
+{"id": "qa-test_seen-2000294-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "437512629405208", "pred": "N° 4548/26", "seconds": 0.1674}
+{"id": "qa-test_seen-2000295-vendor_nif", "field": "vendor_nif", "question": "Donne-moi le numéro d'identification fiscale du vendeur.", "gold": "022542457112157", "pred": "492/2025", "seconds": 0.157}
+{"id": "qa-test_seen-2000296-vendor_rc", "field": "vendor_rc", "question": "RC du vendeur ?", "gold": "23/00-9042031 B 22", "pred": "23/00-9042031 B 22", "seconds": 0.1803}
+{"id": "qa-test_seen-2000297-item_qty", "field": "item_qty", "question": "Combien d'unités de Stylo bille (boîte 50) ?", "gold": "4", "pred": "4", "seconds": 0.1401}
+{"id": "qa-test_seen-2000298-invoice_number", "field": "invoice_number", "question": "Which invoice number is this?", "gold": "N° 9138/25", "pred": "N° 9138/25", "seconds": 0.1591}
+{"id": "qa-test_seen-2000299-total_ttc", "field": "total_ttc", "question": "Grand total including tax?", "gold": "165707,50", "pred": "139250,00", "seconds": 0.1499}

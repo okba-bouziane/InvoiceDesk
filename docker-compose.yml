@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports: ["7860:7860"]
+    volumes:
+      - ./models/invoicedesk:/model:ro
+    environment:
+      RATE_LIMIT_PER_MINUTE: "20"
+      TORCH_THREADS: "4"

@@ -1,0 +1,60 @@
+{
+  "system": "tesseract-fra + rules",
+  "tesseract": "5.3.4",
+  "invoice_test_seen": {
+    "n": 300,
+    "precision": 0.7996086105675146,
+    "recall": 0.29185714285714287,
+    "f1": 0.42762951334379906,
+    "header_only": {
+      "precision": 0.7996086105675146,
+      "recall": 0.6008823529411764,
+      "f1": 0.6861460957178841
+    },
+    "document_accuracy": 0.0,
+    "field_accuracy": {
+      "vendor": 0.6633333333333333,
+      "vendor_address": 0.30333333333333334,
+      "vendor_nif": 0.8266666666666667,
+      "vendor_rc": 0.6333333333333333,
+      "invoice_number": 0.25,
+      "date": 0.6466666666666666,
+      "client": 0.6633333333333333,
+      "total_ht": 0.6233333333333333,
+      "tva_rate": 0.74,
+      "tva": 0.62,
+      "total_ttc": 0.6033333333333334,
+      "items (all lines)": 0.0,
+      "timbre": 0.71
+    },
+    "seconds_p50": 0.6891
+  },
+  "invoice_test_heldout": {
+    "n": 300,
+    "precision": 0.9105658884052236,
+    "recall": 0.3230380457672329,
+    "f1": 0.4768911917098445,
+    "header_only": {
+      "precision": 0.9105658884052236,
+      "recall": 0.6745822339489885,
+      "f1": 0.77500842034355
+    },
+    "document_accuracy": 0.0,
+    "field_accuracy": {
+      "vendor": 0.11666666666666667,
+      "vendor_address": 0.0,
+      "vendor_nif": 0.9266666666666666,
+      "vendor_rc": 0.5766666666666667,
+      "invoice_number": 0.5533333333333333,
+      "date": 0.94,
+      "client": 0.9866666666666667,
+      "total_ht": 0.77,
+      "tva_rate": 0.9366666666666666,
+      "tva": 0.7833333333333333,
+      "timbre": 0.8288288288288288,
+      "total_ttc": 0.7733333333333333,
+      "items (all lines)": 0.0
+    },
+    "seconds_p50": 0.7334
+  }
+}

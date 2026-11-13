@@ -1,0 +1,39 @@
+[project]
+name = "invoicedesk"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.0",
+    "fastapi>=0.115",
+    "matplotlib>=3.9",
+    "pillow>=10",
+    "protobuf>=5",
+    "python-multipart>=0.0.9",
+    "sentencepiece>=0.2",
+    "torch>=2.4",
+    "transformers>=4.45,<5",
+    "uvicorn>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytesseract>=0.3.13",
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.File", "fastapi.Form"]

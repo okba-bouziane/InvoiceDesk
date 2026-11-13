@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Familjen Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-typed: "Courier Prime", "Courier New", ui-monospace, monospace;
+
+  --color-register: #123d33;      /* cover of an accounting register */
+  --color-register-deep: #0c2c25;
+  --color-register-line: #2b5a4e;
+  --color-paper: #eef2ec;         /* the desk */
+  --color-carbon: #fff6cf;        /* yellow duplicate sheet */
+  --color-carbon-line: #e7d98f;
+  --color-ink: #1c2421;
+  --color-ink-soft: #5d6a65;
+  --color-stamp: #6a45b8;         /* cachet ink */
+  --color-refuse: #c0392b;
+  --color-ok: #1f7a55;
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+/* In the base layer, so a utility such as focus-visible:outline-none can override it. */
+@layer base {
+  :focus-visible { outline: 2px solid var(--color-stamp); outline-offset: 2px; }
+}
+
+/* Perforated top edge of a tear-off duplicate sheet. */
+.perforated {
+  background-image: radial-gradient(circle at 7px 0, var(--color-paper) 4px, transparent 4.5px);
+  background-size: 14px 8px;
+  background-repeat: repeat-x;
+}
+
+/* The rubber stamp lands once, when the checks are known. */
+@keyframes stamp-press {
+  0% { opacity: 0; transform: rotate(-9deg) scale(1.9); }
+  60% { opacity: 1; transform: rotate(-9deg) scale(0.94); }
+  100% { opacity: 0.9; transform: rotate(-9deg) scale(1); }
+}
+.stamp { transform: rotate(-9deg); opacity: 0.9; mix-blend-mode: multiply; }
+.stamp-in { animation: stamp-press 420ms cubic-bezier(.2, .9, .3, 1.2) both; }
+
+@keyframes writing { to { background-position: -200% 0; } }
+.writing {
+  background: linear-gradient(90deg, var(--color-ink-soft) 40%, var(--color-ink) 50%, var(--color-ink-soft) 60%);
+  background-size: 200% 100%;
+  background-clip: text; color: transparent;
+  animation: writing 1.6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stamp-in, .writing { animation: none; }
+  .writing { color: var(--color-ink-soft); background: none; }
+}

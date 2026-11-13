@@ -1,0 +1,8 @@
+.venv
+build
+models
+results/predictions
+.git
+**/__pycache__
+web/node_modules
+web/dist

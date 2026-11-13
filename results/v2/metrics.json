@@ -1,0 +1,147 @@
+{
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "base_model": "naver-clova-ix/donut-base",
+  "base_revision": "a959cf33c20e09215873e338299c900f57047c61",
+  "image_size": [
+    1280,
+    960
+  ],
+  "args": {
+    "out": "run",
+    "epochs": 3.0,
+    "lr": 3e-05,
+    "batch": 2,
+    "accum": 4,
+    "n_invoice": 3000,
+    "n_qa": 3000,
+    "n_test": 300,
+    "n_val": 60,
+    "hours": 6.0,
+    "workers": 3,
+    "seed": 7,
+    "smoke": false
+  },
+  "train_minutes": 127.9,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6125,
+      "val_cord_f1": 0.389,
+      "val_invoice_f1": 0.9142,
+      "minutes": 42.8
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1333,
+      "val_cord_f1": 0.6468,
+      "val_invoice_f1": 0.9627,
+      "minutes": 85.4
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0712,
+      "val_cord_f1": 0.7098,
+      "val_invoice_f1": 0.9669,
+      "minutes": 127.9
+    }
+  ],
+  "cord_test": {
+    "n": 100,
+    "precision": 0.655838454784899,
+    "recall": 0.574173712528824,
+    "f1": 0.612295081967213,
+    "seconds_p50": 0.424,
+    "seconds_p95": 0.9691
+  },
+  "invoice_test_seen": {
+    "n": 300,
+    "precision": 0.970848813946842,
+    "recall": 0.9705714285714285,
+    "f1": 0.9707101014430632,
+    "document_accuracy": 0.5133333333333333,
+    "field_accuracy": {
+      "vendor": 0.9966666666666667,
+      "vendor_address": 0.9566666666666667,
+      "vendor_nif": 0.64,
+      "vendor_rc": 0.82,
+      "invoice_number": 0.98,
+      "date": 0.99,
+      "client": 1.0,
+      "total_ht": 0.9866666666666667,
+      "tva_rate": 1.0,
+      "tva": 0.9866666666666667,
+      "total_ttc": 1.0,
+      "items (all lines)": 0.9633333333333334,
+      "timbre": 1.0
+    },
+    "seconds_p50": 0.9847,
+    "seconds_p95": 1.2656
+  },
+  "invoice_test_heldout": {
+    "n": 300,
+    "precision": 0.8785871964679912,
+    "recall": 0.44700266741541483,
+    "f1": 0.5925374523122732,
+    "document_accuracy": 0.0,
+    "field_accuracy": {
+      "vendor": 0.30333333333333334,
+      "vendor_address": 0.013333333333333334,
+      "vendor_nif": 0.10666666666666667,
+      "vendor_rc": 0.22,
+      "invoice_number": 0.19333333333333333,
+      "date": 0.36,
+      "client": 1.0,
+      "total_ht": 0.5066666666666667,
+      "tva_rate": 0.52,
+      "tva": 0.5133333333333333,
+      "timbre": 0.6576576576576577,
+      "total_ttc": 0.49666666666666665,
+      "items (all lines)": 0.4266666666666667
+    },
+    "seconds_p50": 0.7635,
+    "seconds_p95": 1.3661
+  },
+  "qa_test_seen": {
+    "n": 300,
+    "exact_match": 0.4266666666666667,
+    "anls": 0.47030827886710236,
+    "by_field_exact_match": {
+      "client": 0.2777777777777778,
+      "item_amount": 0.4166666666666667,
+      "vendor_rc": 0.38461538461538464,
+      "total_ttc": 0.47368421052631576,
+      "vendor_nif": 0.3,
+      "tva_rate": 0.5416666666666666,
+      "total_ht": 0.0,
+      "invoice_number": 0.9615384615384616,
+      "vendor": 0.15789473684210525,
+      "item_qty": 1.0,
+      "timbre": 0.3333333333333333,
+      "tva": 0.0,
+      "date": 0.5185185185185185
+    },
+    "n_questions_with_accents": 121
+  },
+  "qa_test_heldout": {
+    "n": 300,
+    "exact_match": 0.41,
+    "anls": 0.4771475432462275,
+    "by_field_exact_match": {
+      "date": 0.8666666666666667,
+      "timbre": 0.6,
+      "total_ht": 0.0,
+      "client": 0.16,
+      "vendor_rc": 0.3181818181818182,
+      "total_ttc": 0.4583333333333333,
+      "item_qty": 0.9130434782608695,
+      "invoice_number": 0.4117647058823529,
+      "tva": 0.0,
+      "vendor": 0.45454545454545453,
+      "vendor_nif": 0.12,
+      "tva_rate": 0.5238095238095238,
+      "item_amount": 0.47619047619047616
+    },
+    "n_questions_with_accents": 117
+  }
+}
