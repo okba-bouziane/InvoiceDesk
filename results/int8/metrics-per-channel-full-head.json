@@ -1,0 +1,25 @@
+{
+  "n_per_set": 300,
+  "runtime": "onnxruntime CPU, 8-bit decoder, 8-bit encoder",
+  "variant": "invoicedesk-eval-perchan-head",
+  "file_bytes": {
+    "encoder_model_quantized.onnx": 90624011,
+    "decoder_model_merged_quantized.onnx": 364787446
+  },
+  "sets": {
+    "test_seen": {
+      "int8_field_f1": 0.9641326093169477,
+      "v3_field_f1_same_images": 0.9683548824916066,
+      "int8_qa_exact": 0.7466666666666667,
+      "v3_qa_exact_same_images": 0.7766666666666666,
+      "int8_seconds_p50": 5.962361183000212
+    },
+    "test_heldout": {
+      "int8_field_f1": 0.6179912663755459,
+      "v3_field_f1_same_images": 0.7000904084819592,
+      "int8_qa_exact": 0.71,
+      "v3_qa_exact_same_images": 0.7366666666666667,
+      "int8_seconds_p50": 5.894339761000083
+    }
+  }
+}

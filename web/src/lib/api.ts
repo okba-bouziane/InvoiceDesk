@@ -80,13 +80,30 @@ async function post<T>(url: string, schema: z.ZodType<T>, form: FormData): Promi
   return parsed.data
 }
 
+/** `VITE_READER=browser` builds the static demo: the model runs in the visitor's browser, no API. */
+export const IN_BROWSER = import.meta.env.VITE_READER === 'browser'
+
+async function inBrowser<T>(schema: z.ZodType<T>, run: () => Promise<unknown>): Promise<T> {
+  let raw: unknown
+  try {
+    raw = await run()
+  } catch (err) {
+    throw new ApiError('status', 0, err instanceof Error ? err.message : String(err))
+  }
+  const parsed = schema.safeParse(raw)
+  if (!parsed.success) throw new ApiError('unexpected')
+  return parsed.data
+}
+
 export function extractInvoice(image: Blob): Promise<ExtractResult> {
+  if (IN_BROWSER) return inBrowser(ExtractResponse, async () => (await import('../reader/browser.ts')).extractInBrowser(image))
   const form = new FormData()
   form.append('image', image, 'facture.jpg')
   return post('/api/extract', ExtractResponse, form)
 }
 
 export function askInvoice(image: Blob, question: string): Promise<AskResult> {
+  if (IN_BROWSER) return inBrowser(AskResponse, async () => (await import('../reader/browser.ts')).askInBrowser(image, question))
   const form = new FormData()
   form.append('image', image, 'facture.jpg')
   form.append('question', question)

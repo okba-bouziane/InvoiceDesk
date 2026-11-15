@@ -17,6 +17,8 @@ const fr = {
   openHistory: 'Ouvrir l’historique',
   closeHistory: 'Fermer l’historique',
   railNote: 'Lecture par un modèle image + texte entraîné pour ce projet. Les exemples sont des factures générées.',
+  railNoteBrowser: 'Le modèle tourne dans votre navigateur : la facture ne quitte jamais votre appareil. Les exemples sont des factures générées.',
+  modelLoading: (got: number, total: number) => `Téléchargement du modèle dans votre navigateur : ${got} / ${total} Mo (une seule fois).`,
   headline: ['Envoyez une facture.', 'Je la prépare pour la saisie.'],
   intro:
     'Fournisseur, NIF, RC, date, lignes, HT, TVA et TTC sont relevés depuis la photo, puis les totaux sont recalculés. Ensuite, posez vos questions sur la facture, en français ou en anglais.',
@@ -103,6 +105,8 @@ const en: Messages = {
   openHistory: 'Open history',
   closeHistory: 'Close history',
   railNote: 'Read by an image + text model trained for this project. The samples are generated invoices.',
+  railNoteBrowser: 'The model runs in your browser: the invoice never leaves your device. The samples are generated invoices.',
+  modelLoading: (got, total) => `Downloading the model to your browser: ${got} / ${total} MB (first time only).`,
   headline: ['Send an invoice.', 'I get it ready for entry.'],
   intro:
     'Supplier, tax ID (NIF), trade register (RC), date, lines, net total, VAT and gross total are read from the photo, then the totals are recalculated. Then ask questions about the invoice, in English or French.',

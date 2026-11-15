@@ -1,0 +1,20 @@
+{
+  "n_per_set": 300,
+  "runtime": "onnxruntime CPU, dynamic 8-bit weights",
+  "sets": {
+    "test_seen": {
+      "int8_field_f1": 0.9606175398470446,
+      "v3_field_f1_same_images": 0.9683548824916066,
+      "int8_qa_exact": 0.73,
+      "v3_qa_exact_same_images": 0.7766666666666666,
+      "int8_seconds_p50": 4.7632357699999375
+    },
+    "test_heldout": {
+      "int8_field_f1": 0.5344668268342265,
+      "v3_field_f1_same_images": 0.7000904084819592,
+      "int8_qa_exact": 0.6866666666666666,
+      "v3_qa_exact_same_images": 0.7366666666666667,
+      "int8_seconds_p50": 4.571741783000107
+    }
+  }
+}

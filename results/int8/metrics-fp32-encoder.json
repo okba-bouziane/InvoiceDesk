@@ -1,0 +1,21 @@
+{
+  "n_per_set": 300,
+  "runtime": "onnxruntime CPU, 8-bit decoder, full-precision encoder",
+  "encoder_file": "encoder_model.onnx",
+  "sets": {
+    "test_seen": {
+      "int8_field_f1": 0.9626188263883925,
+      "v3_field_f1_same_images": 0.9683548824916066,
+      "int8_qa_exact": 0.7266666666666667,
+      "v3_qa_exact_same_images": 0.7766666666666666,
+      "int8_seconds_p50": 6.5132224079998196
+    },
+    "test_heldout": {
+      "int8_field_f1": 0.5827248441674087,
+      "v3_field_f1_same_images": 0.7000904084819592,
+      "int8_qa_exact": 0.6833333333333333,
+      "v3_qa_exact_same_images": 0.7366666666666667,
+      "int8_seconds_p50": 5.892702452999401
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { Menu, Plus, Trash2, X } from 'lucide-react'
 import { useEffect } from 'react'
 import { APP_NAME } from '../config.ts'
 import { LANGS, MESSAGES, useI18n } from '../i18n.tsx'
+import { IN_BROWSER } from '../lib/api.ts'
 import type { Chat } from '../lib/conversation.ts'
 
 interface Props {
@@ -64,7 +65,7 @@ export function Rail({ chats, activeId, open, onOpenChange, onNew, onSelect, onR
       <p className="border-t border-register-line px-5 py-4 text-xs leading-relaxed text-[#88a69b]">
         {t.historyNote}
         <br />
-        <span className="mt-1.5 block">{t.railNote}</span>
+        <span className="mt-1.5 block">{IN_BROWSER ? t.railNoteBrowser : t.railNote}</span>
       </p>
     </>
   )
